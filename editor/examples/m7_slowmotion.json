@@ -1,0 +1,142 @@
+{
+  "format": "fa-project",
+  "name": "",
+  "nextId": 1,
+  "sequences": [
+    {
+      "frameRate": "24",
+      "height": 720,
+      "id": "seq1",
+      "name": "Sequence 1",
+      "sampleRate": 48000,
+      "tracks": [
+        {
+          "clips": [
+            {
+              "duration": "2",
+              "id": "slow0",
+              "in": "295/12",
+              "source": "m1",
+              "speed": {
+                "interpolation": "blending",
+                "speed": "1/4"
+              },
+              "start": "0"
+            },
+            {
+              "duration": "2",
+              "id": "slow1",
+              "in": "295/12",
+              "source": "m1",
+              "speed": {
+                "interpolation": "opticalFlowQuality",
+                "speed": "1/4"
+              },
+              "start": "2"
+            },
+            {
+              "duration": "2",
+              "id": "slow2",
+              "in": "295/12",
+              "source": "m1",
+              "speed": {
+                "interpolation": "neural",
+                "speed": "1/4"
+              },
+              "start": "4"
+            }
+          ],
+          "id": "v1",
+          "kind": "video",
+          "name": "Video 1"
+        },
+        {
+          "clips": [
+            {
+              "duration": "2",
+              "id": "label1",
+              "in": "0",
+              "start": "0",
+              "title": {
+                "style": {
+                  "size": 30.0,
+                  "weight": 700,
+                  "wrapWidth": 0.9
+                },
+                "text": "0.25x - Frame Blending (M5, not AI)"
+              },
+              "transform": {
+                "positionY": -0.43
+              }
+            }
+          ],
+          "id": "lbl1",
+          "kind": "video",
+          "name": "Labels"
+        },
+        {
+          "clips": [
+            {
+              "duration": "2",
+              "id": "label2",
+              "in": "0",
+              "start": "2",
+              "title": {
+                "style": {
+                  "size": 30.0,
+                  "weight": 700,
+                  "wrapWidth": 0.9
+                },
+                "text": "0.25x - Optical Flow (M5, not AI)"
+              },
+              "transform": {
+                "positionY": -0.43
+              }
+            }
+          ],
+          "id": "lbl2",
+          "kind": "video",
+          "name": "Labels"
+        },
+        {
+          "clips": [
+            {
+              "duration": "2",
+              "id": "label3",
+              "in": "0",
+              "start": "4",
+              "title": {
+                "style": {
+                  "size": 30.0,
+                  "weight": 700,
+                  "wrapWidth": 0.9
+                },
+                "text": "0.25x - AI Interpolation (RIFE, M7)"
+              },
+              "transform": {
+                "positionY": -0.43
+              }
+            }
+          ],
+          "id": "lbl3",
+          "kind": "video",
+          "name": "Labels"
+        }
+      ],
+      "width": 1280
+    }
+  ],
+  "sources": [
+    {
+      "duration": "52208333/1000000",
+      "frameRate": "24",
+      "hasAudio": true,
+      "hasVideo": true,
+      "height": 720,
+      "id": "m1",
+      "path": "../../testmedia/ai/sintel_trailer_720p.mp4",
+      "width": 1280
+    }
+  ],
+  "version": 9
+}

@@ -1,0 +1,30 @@
+{
+  "format": "fa-project",
+  "version": 1,
+  "name": "NTSC sequence with a centred 1 s dissolve (example)",
+  "nextId": 10,
+  "sources": [
+    { "id": "src-n", "path": "../../testmedia/N_green_720p2997_6s.mp4" },
+    { "id": "src-o", "path": "../../testmedia/O_magenta_720p2997_6s.mp4" }
+  ],
+  "sequences": [
+    {
+      "id": "seq-1",
+      "name": "Main",
+      "width": 1280,
+      "height": 720,
+      "frameRate": "30000/1001",
+      "tracks": [
+        {
+          "id": "v1",
+          "kind": "video",
+          "clips": [
+            { "id": "clip-1", "source": "src-n", "start": "0", "in": "1001/1000", "duration": "3003/1000",
+              "outTransition": { "type": "fa.transition.dissolve", "duration": "1001/1000", "alignment": "centered" } },
+            { "id": "clip-2", "source": "src-o", "start": "3003/1000", "in": "1001/1000", "duration": "3003/1000" }
+          ]
+        }
+      ]
+    }
+  ]
+}

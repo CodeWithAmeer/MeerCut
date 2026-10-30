@@ -1,0 +1,128 @@
+{
+  "format": "fa-project",
+  "name": "",
+  "nextId": 1,
+  "sequences": [
+    {
+      "frameRate": "24",
+      "height": 720,
+      "id": "seq1",
+      "name": "Sequence 1",
+      "sampleRate": 48000,
+      "tracks": [
+        {
+          "clips": [
+            {
+              "duration": "4",
+              "id": "c1",
+              "in": "0",
+              "source": "m1",
+              "start": "0",
+              "upscale": {
+                "deflicker": 0.5,
+                "mode": "lanczos",
+                "model": "general",
+                "scale": 2
+              }
+            }
+          ],
+          "id": "v1",
+          "kind": "video",
+          "name": "Video 1"
+        },
+        {
+          "clips": [
+            {
+              "duration": "4",
+              "id": "ai",
+              "in": "0",
+              "source": "m1",
+              "start": "0",
+              "transform": {
+                "crop": [
+                  0.5,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "upscale": {
+                "deflicker": 0.5,
+                "mode": "ai",
+                "model": "general",
+                "scale": 4
+              }
+            }
+          ],
+          "id": "v2",
+          "kind": "video",
+          "name": "Video 2"
+        },
+        {
+          "clips": [
+            {
+              "duration": "4",
+              "id": "label2",
+              "in": "0",
+              "start": "0",
+              "title": {
+                "style": {
+                  "size": 28.0,
+                  "weight": 700,
+                  "wrapWidth": 0.9
+                },
+                "text": "Lanczos (not AI)"
+              },
+              "transform": {
+                "positionX": -0.25,
+                "positionY": -0.43
+              }
+            }
+          ],
+          "id": "lbl2",
+          "kind": "video",
+          "name": "Labels"
+        },
+        {
+          "clips": [
+            {
+              "duration": "4",
+              "id": "label3",
+              "in": "0",
+              "start": "0",
+              "title": {
+                "style": {
+                  "size": 28.0,
+                  "weight": 700,
+                  "wrapWidth": 0.9
+                },
+                "text": "Real-ESRGAN x4plus (AI)"
+              },
+              "transform": {
+                "positionX": 0.25,
+                "positionY": -0.43
+              }
+            }
+          ],
+          "id": "lbl3",
+          "kind": "video",
+          "name": "Labels"
+        }
+      ],
+      "width": 1280
+    }
+  ],
+  "sources": [
+    {
+      "duration": "4",
+      "frameRate": "24",
+      "hasAudio": false,
+      "hasVideo": true,
+      "height": 180,
+      "id": "m1",
+      "path": "../../testmedia/ai/sintel_desert_320x180.mp4",
+      "width": 320
+    }
+  ],
+  "version": 9
+}

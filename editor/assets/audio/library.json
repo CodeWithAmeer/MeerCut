@@ -1,0 +1,480 @@
+{
+ "format": "meercut-audio-library",
+ "version": 1,
+ "licence": "MeerCut's own synthesised audio (GPL-3.0-or-later with MeerCut)",
+ "items": [
+  {
+   "id": "music.bright_morning",
+   "title": "Bright Morning",
+   "kind": "music",
+   "category": "Upbeat",
+   "bpm": 116,
+   "file": "music/bright_morning.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "music.lofi_evening",
+   "title": "Lo-Fi Evening",
+   "kind": "music",
+   "category": "Chill",
+   "bpm": 82,
+   "file": "music/lofi_evening.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "music.rising_horizon",
+   "title": "Rising Horizon",
+   "kind": "music",
+   "category": "Cinematic",
+   "bpm": 0,
+   "file": "music/rising_horizon.m4a",
+   "seconds": 34.0
+  },
+  {
+   "id": "music.clear_progress",
+   "title": "Clear Progress",
+   "kind": "music",
+   "category": "Corporate",
+   "bpm": 108,
+   "file": "music/clear_progress.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "music.quiet_space",
+   "title": "Quiet Space",
+   "kind": "music",
+   "category": "Ambient",
+   "bpm": 0,
+   "file": "music/quiet_space.m4a",
+   "seconds": 36.0
+  },
+  {
+   "id": "music.night_drive",
+   "title": "Night Drive",
+   "kind": "music",
+   "category": "Electronic",
+   "bpm": 124,
+   "file": "music/night_drive.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "sfx.whoosh",
+   "title": "Whoosh",
+   "kind": "sfx",
+   "category": "Transition",
+   "file": "sfx/whoosh.m4a",
+   "seconds": 0.9
+  },
+  {
+   "id": "sfx.swoosh_fast",
+   "title": "Fast Swoosh",
+   "kind": "sfx",
+   "category": "Transition",
+   "file": "sfx/swoosh_fast.m4a",
+   "seconds": 0.45
+  },
+  {
+   "id": "sfx.swipe",
+   "title": "Swipe",
+   "kind": "sfx",
+   "category": "Transition",
+   "file": "sfx/swipe.m4a",
+   "seconds": 0.35
+  },
+  {
+   "id": "sfx.riser",
+   "title": "Riser",
+   "kind": "sfx",
+   "category": "Transition",
+   "file": "sfx/riser.m4a",
+   "seconds": 3.0
+  },
+  {
+   "id": "sfx.impact",
+   "title": "Impact Boom",
+   "kind": "sfx",
+   "category": "Transition",
+   "file": "sfx/impact.m4a",
+   "seconds": 2.2
+  },
+  {
+   "id": "sfx.glitch",
+   "title": "Glitch",
+   "kind": "sfx",
+   "category": "Transition",
+   "file": "sfx/glitch.m4a",
+   "seconds": 0.7
+  },
+  {
+   "id": "sfx.pop",
+   "title": "Pop",
+   "kind": "sfx",
+   "category": "Interface",
+   "file": "sfx/pop.m4a",
+   "seconds": 0.16
+  },
+  {
+   "id": "sfx.click",
+   "title": "Click",
+   "kind": "sfx",
+   "category": "Interface",
+   "file": "sfx/click.m4a",
+   "seconds": 0.05
+  },
+  {
+   "id": "sfx.bubble",
+   "title": "Bubble",
+   "kind": "sfx",
+   "category": "Interface",
+   "file": "sfx/bubble.m4a",
+   "seconds": 0.25
+  },
+  {
+   "id": "sfx.typing",
+   "title": "Typing",
+   "kind": "sfx",
+   "category": "Interface",
+   "file": "sfx/typing.m4a",
+   "seconds": 2.0
+  },
+  {
+   "id": "sfx.shutter",
+   "title": "Camera Shutter",
+   "kind": "sfx",
+   "category": "Interface",
+   "file": "sfx/shutter.m4a",
+   "seconds": 0.35
+  },
+  {
+   "id": "sfx.ding",
+   "title": "Ding",
+   "kind": "sfx",
+   "category": "Notification",
+   "file": "sfx/ding.m4a",
+   "seconds": 1.8
+  },
+  {
+   "id": "sfx.chime",
+   "title": "Chime",
+   "kind": "sfx",
+   "category": "Notification",
+   "file": "sfx/chime.m4a",
+   "seconds": 1.6
+  },
+  {
+   "id": "sfx.success",
+   "title": "Success",
+   "kind": "sfx",
+   "category": "Notification",
+   "file": "sfx/success.m4a",
+   "seconds": 1.4
+  },
+  {
+   "id": "sfx.error",
+   "title": "Error Buzz",
+   "kind": "sfx",
+   "category": "Notification",
+   "file": "sfx/error.m4a",
+   "seconds": 0.7
+  },
+  {
+   "id": "sfx.coin",
+   "title": "Coin",
+   "kind": "sfx",
+   "category": "Game",
+   "file": "sfx/coin.m4a",
+   "seconds": 0.6
+  },
+  {
+   "id": "sfx.laser",
+   "title": "Laser",
+   "kind": "sfx",
+   "category": "Game",
+   "file": "sfx/laser.m4a",
+   "seconds": 0.5
+  },
+  {
+   "id": "sfx.heartbeat",
+   "title": "Heartbeat",
+   "kind": "sfx",
+   "category": "Dramatic",
+   "file": "sfx/heartbeat.m4a",
+   "seconds": 2.4
+  },
+  {
+   "id": "sfx.drumroll",
+   "title": "Drum Roll",
+   "kind": "sfx",
+   "category": "Dramatic",
+   "file": "sfx/drumroll.m4a",
+   "seconds": 3.1
+  },
+  {
+   "id": "music.hiphop_groove",
+   "title": "Hip Hop Groove",
+   "kind": "music",
+   "category": "Chill",
+   "bpm": 90,
+   "file": "music/hiphop_groove.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "music.acoustic_morning",
+   "title": "Acoustic Morning",
+   "kind": "music",
+   "category": "Acoustic",
+   "bpm": 100,
+   "file": "music/acoustic_morning.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "music.piano_reflections",
+   "title": "Piano Reflections",
+   "kind": "music",
+   "category": "Acoustic",
+   "bpm": 72,
+   "file": "music/piano_reflections.m4a",
+   "seconds": 34.0
+  },
+  {
+   "id": "music.epic_trailer",
+   "title": "Epic Trailer",
+   "kind": "music",
+   "category": "Cinematic",
+   "bpm": 80,
+   "file": "music/epic_trailer.m4a",
+   "seconds": 34.0
+  },
+  {
+   "id": "music.funky_groove",
+   "title": "Funky Groove",
+   "kind": "music",
+   "category": "Upbeat",
+   "bpm": 108,
+   "file": "music/funky_groove.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "music.eight_bit_adventure",
+   "title": "8-Bit Adventure",
+   "kind": "music",
+   "category": "Fun",
+   "bpm": 140,
+   "file": "music/eight_bit_adventure.m4a",
+   "seconds": 30.0
+  },
+  {
+   "id": "music.island_breeze",
+   "title": "Island Breeze",
+   "kind": "music",
+   "category": "Chill",
+   "bpm": 76,
+   "file": "music/island_breeze.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "music.tropical_sunset",
+   "title": "Tropical Sunset",
+   "kind": "music",
+   "category": "Electronic",
+   "bpm": 104,
+   "file": "music/tropical_sunset.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "music.jazz_cafe",
+   "title": "Jazz Cafe",
+   "kind": "music",
+   "category": "Chill",
+   "bpm": 120,
+   "file": "music/jazz_cafe.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "music.suspense",
+   "title": "Suspense",
+   "kind": "music",
+   "category": "Cinematic",
+   "bpm": 60,
+   "file": "music/suspense.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "music.holiday_bells",
+   "title": "Holiday Bells",
+   "kind": "music",
+   "category": "Fun",
+   "bpm": 120,
+   "file": "music/holiday_bells.m4a",
+   "seconds": 32.0
+  },
+  {
+   "id": "sfx.applause",
+   "title": "Applause",
+   "kind": "sfx",
+   "category": "Everyday",
+   "file": "sfx/applause.m4a",
+   "seconds": 3.6
+  },
+  {
+   "id": "sfx.camera_flash",
+   "title": "Camera Flash",
+   "kind": "sfx",
+   "category": "Everyday",
+   "file": "sfx/camera_flash.m4a",
+   "seconds": 1.0
+  },
+  {
+   "id": "sfx.cash_register",
+   "title": "Cash Register",
+   "kind": "sfx",
+   "category": "Everyday",
+   "file": "sfx/cash_register.m4a",
+   "seconds": 1.6
+  },
+  {
+   "id": "sfx.door_knock",
+   "title": "Door Knock",
+   "kind": "sfx",
+   "category": "Everyday",
+   "file": "sfx/door_knock.m4a",
+   "seconds": 1.0
+  },
+  {
+   "id": "sfx.clock_tick",
+   "title": "Clock Ticking",
+   "kind": "sfx",
+   "category": "Everyday",
+   "file": "sfx/clock_tick.m4a",
+   "seconds": 4.0
+  },
+  {
+   "id": "sfx.thunder",
+   "title": "Thunder",
+   "kind": "sfx",
+   "category": "Nature",
+   "file": "sfx/thunder.m4a",
+   "seconds": 4.5
+  },
+  {
+   "id": "sfx.rain",
+   "title": "Rain",
+   "kind": "sfx",
+   "category": "Nature",
+   "file": "sfx/rain.m4a",
+   "seconds": 5.0
+  },
+  {
+   "id": "sfx.wind",
+   "title": "Wind",
+   "kind": "sfx",
+   "category": "Nature",
+   "file": "sfx/wind.m4a",
+   "seconds": 5.0
+  },
+  {
+   "id": "sfx.water_drop",
+   "title": "Water Drop",
+   "kind": "sfx",
+   "category": "Nature",
+   "file": "sfx/water_drop.m4a",
+   "seconds": 0.3
+  },
+  {
+   "id": "sfx.boing",
+   "title": "Boing",
+   "kind": "sfx",
+   "category": "Comedy",
+   "file": "sfx/boing.m4a",
+   "seconds": 0.9
+  },
+  {
+   "id": "sfx.slide_whistle",
+   "title": "Slide Whistle",
+   "kind": "sfx",
+   "category": "Comedy",
+   "file": "sfx/slide_whistle.m4a",
+   "seconds": 1.0
+  },
+  {
+   "id": "sfx.record_scratch",
+   "title": "Record Scratch",
+   "kind": "sfx",
+   "category": "Comedy",
+   "file": "sfx/record_scratch.m4a",
+   "seconds": 0.55
+  },
+  {
+   "id": "sfx.sad_trombone",
+   "title": "Sad Trombone",
+   "kind": "sfx",
+   "category": "Comedy",
+   "file": "sfx/sad_trombone.m4a",
+   "seconds": 3.0
+  },
+  {
+   "id": "sfx.level_up",
+   "title": "Level Up",
+   "kind": "sfx",
+   "category": "Game",
+   "file": "sfx/level_up.m4a",
+   "seconds": 1.1
+  },
+  {
+   "id": "sfx.game_over",
+   "title": "Game Over",
+   "kind": "sfx",
+   "category": "Game",
+   "file": "sfx/game_over.m4a",
+   "seconds": 2.0
+  },
+  {
+   "id": "sfx.notification",
+   "title": "Notification",
+   "kind": "sfx",
+   "category": "Notification",
+   "file": "sfx/notification.m4a",
+   "seconds": 0.9
+  },
+  {
+   "id": "sfx.countdown_beeps",
+   "title": "Countdown Beeps",
+   "kind": "sfx",
+   "category": "Notification",
+   "file": "sfx/countdown_beeps.m4a",
+   "seconds": 3.9
+  },
+  {
+   "id": "sfx.tada",
+   "title": "Ta-Da",
+   "kind": "sfx",
+   "category": "Notification",
+   "file": "sfx/tada.m4a",
+   "seconds": 2.2
+  },
+  {
+   "id": "sfx.magic",
+   "title": "Magic Sparkle",
+   "kind": "sfx",
+   "category": "Transition",
+   "file": "sfx/magic.m4a",
+   "seconds": 1.8
+  },
+  {
+   "id": "sfx.cymbal",
+   "title": "Cymbal Crash",
+   "kind": "sfx",
+   "category": "Dramatic",
+   "file": "sfx/cymbal.m4a",
+   "seconds": 2.8
+  },
+  {
+   "id": "sfx.punch",
+   "title": "Punch",
+   "kind": "sfx",
+   "category": "Dramatic",
+   "file": "sfx/punch.m4a",
+   "seconds": 0.35
+  }
+ ]
+}

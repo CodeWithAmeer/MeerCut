@@ -1,0 +1,335 @@
+{
+  "format": "fa-project",
+  "version": 6,
+  "name": "M6 audio mix",
+  "nextId": 1000,
+  "sources": [
+    {
+      "id": "A",
+      "path": "../../testmedia/A_red_1080p30_10s.mp4",
+      "frameRate": "30",
+      "duration": "10",
+      "hasVideo": true,
+      "hasAudio": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "B",
+      "path": "../../testmedia/B_blue_1080p30_10s.mp4",
+      "frameRate": "30",
+      "duration": "10",
+      "hasVideo": true,
+      "hasAudio": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "V",
+      "path": "../../testmedia/Q_voice_bursts_16s.wav",
+      "duration": "16",
+      "hasVideo": false,
+      "hasAudio": true
+    }
+  ],
+  "sequences": [
+    {
+      "id": "seq-1",
+      "name": "M6 audio mix",
+      "width": 1280,
+      "height": 720,
+      "frameRate": "30",
+      "sampleRate": 48000,
+      "limiter": {
+        "enabled": true,
+        "ceilingDb": -1.0
+      },
+      "tracks": [
+        {
+          "id": "v1",
+          "kind": "video",
+          "name": "Video 1",
+          "clips": [
+            {
+              "id": "va",
+              "source": "A",
+              "start": "0",
+              "in": "0",
+              "duration": "8",
+              "link": "la",
+              "outTransition": {
+                "type": "fa.transition.dissolve",
+                "duration": "1",
+                "alignment": "centered"
+              }
+            },
+            {
+              "id": "vb",
+              "source": "B",
+              "start": "8",
+              "in": "1",
+              "duration": "8",
+              "link": "lb"
+            }
+          ]
+        },
+        {
+          "id": "v2",
+          "kind": "video",
+          "name": "Titles",
+          "clips": [
+            {
+              "id": "t1",
+              "start": "0",
+              "in": "0",
+              "duration": "1",
+              "title": {
+                "text": "Fade in (1 s)",
+                "style": {
+                  "size": 22,
+                  "weight": 600,
+                  "background": true,
+                  "backgroundColor": "#14161C",
+                  "backgroundOpacity": 0.82,
+                  "backgroundPadding": 10,
+                  "backgroundRadius": 4
+                }
+              },
+              "transform": {
+                "positionY": -0.4
+              }
+            },
+            {
+              "id": "t2",
+              "start": "3/2",
+              "in": "0",
+              "duration": "5/2",
+              "title": {
+                "text": "Volume automation: -12 dB",
+                "style": {
+                  "size": 22,
+                  "weight": 600,
+                  "background": true,
+                  "backgroundColor": "#14161C",
+                  "backgroundOpacity": 0.82,
+                  "backgroundPadding": 10,
+                  "backgroundRadius": 4
+                }
+              },
+              "transform": {
+                "positionY": -0.4
+              }
+            },
+            {
+              "id": "t3",
+              "start": "9/2",
+              "in": "0",
+              "duration": "3",
+              "title": {
+                "text": "Ducking: the voice lowers the music by 15 dB",
+                "style": {
+                  "size": 22,
+                  "weight": 600,
+                  "background": true,
+                  "backgroundColor": "#14161C",
+                  "backgroundOpacity": 0.82,
+                  "backgroundPadding": 10,
+                  "backgroundRadius": 4
+                }
+              },
+              "transform": {
+                "positionY": -0.4
+              }
+            },
+            {
+              "id": "t4",
+              "start": "15/2",
+              "in": "0",
+              "duration": "1",
+              "title": {
+                "text": "Equal-power crossfade",
+                "style": {
+                  "size": 22,
+                  "weight": 600,
+                  "background": true,
+                  "backgroundColor": "#14161C",
+                  "backgroundOpacity": 0.82,
+                  "backgroundPadding": 10,
+                  "backgroundRadius": 4
+                }
+              },
+              "transform": {
+                "positionY": -0.4
+              }
+            },
+            {
+              "id": "t5",
+              "start": "17/2",
+              "in": "0",
+              "duration": "5",
+              "title": {
+                "text": "Balance: left -> right",
+                "style": {
+                  "size": 22,
+                  "weight": 600,
+                  "background": true,
+                  "backgroundColor": "#14161C",
+                  "backgroundOpacity": 0.82,
+                  "backgroundPadding": 10,
+                  "backgroundRadius": 4
+                }
+              },
+              "transform": {
+                "positionY": -0.4
+              }
+            },
+            {
+              "id": "t6",
+              "start": "14",
+              "in": "0",
+              "duration": "2",
+              "title": {
+                "text": "Fade out (2 s)",
+                "style": {
+                  "size": 22,
+                  "weight": 600,
+                  "background": true,
+                  "backgroundColor": "#14161C",
+                  "backgroundOpacity": 0.82,
+                  "backgroundPadding": 10,
+                  "backgroundRadius": 4
+                }
+              },
+              "transform": {
+                "positionY": -0.4
+              }
+            }
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "audio",
+          "name": "Music",
+          "clips": [
+            {
+              "id": "aa",
+              "source": "A",
+              "start": "0",
+              "in": "0",
+              "duration": "8",
+              "link": "la",
+              "volumeDb": {
+                "value": 0,
+                "keys": [
+                  {
+                    "t": "3/2",
+                    "v": 0.0,
+                    "interp": "linear",
+                    "tangent": "linear"
+                  },
+                  {
+                    "t": "5/2",
+                    "v": -12.0,
+                    "interp": "linear",
+                    "tangent": "linear"
+                  },
+                  {
+                    "t": "7/2",
+                    "v": -12.0,
+                    "interp": "linear",
+                    "tangent": "linear"
+                  },
+                  {
+                    "t": "4",
+                    "v": 0.0,
+                    "interp": "linear",
+                    "tangent": "linear"
+                  }
+                ]
+              },
+              "audio": {
+                "fadeIn": "1"
+              },
+              "outTransition": {
+                "type": "fa.audio.crossfade.equalPower",
+                "duration": "1",
+                "alignment": "centered"
+              }
+            },
+            {
+              "id": "ab",
+              "source": "B",
+              "start": "8",
+              "in": "1",
+              "duration": "8",
+              "link": "lb",
+              "audio": {
+                "fadeOut": "2",
+                "balance": {
+                  "value": 0,
+                  "keys": [
+                    {
+                      "t": "2",
+                      "v": -1.0,
+                      "interp": "linear",
+                      "tangent": "linear"
+                    },
+                    {
+                      "t": "8",
+                      "v": 1.0,
+                      "interp": "linear",
+                      "tangent": "linear"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "a2",
+          "kind": "audio",
+          "name": "Voice",
+          "clips": [
+            {
+              "id": "vo",
+              "source": "V",
+              "start": "0",
+              "in": "0",
+              "duration": "16",
+              "audio": {
+                "eq": {
+                  "enabled": true,
+                  "preset": "voice-clarity",
+                  "gainsDb": [
+                    -6,
+                    -4,
+                    -2,
+                    0,
+                    1,
+                    2,
+                    3,
+                    2,
+                    1,
+                    0
+                  ]
+                },
+                "ducking": {
+                  "enabled": true,
+                  "targets": [
+                    "a1"
+                  ],
+                  "amountDb": -15,
+                  "thresholdDb": -40,
+                  "attackMs": 250,
+                  "holdMs": 300,
+                  "releaseMs": 500
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

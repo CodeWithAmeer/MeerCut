@@ -1,0 +1,108 @@
+{
+  "format": "fa-project",
+  "version": 6,
+  "name": "M6 export sample",
+  "nextId": 1000,
+  "sources": [
+    {
+      "id": "A",
+      "path": "../../testmedia/A_red_1080p30_10s.mp4",
+      "frameRate": "30",
+      "duration": "10",
+      "hasVideo": true,
+      "hasAudio": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "C",
+      "path": "../../testmedia/C_testsrc2_1080p30_10s.mp4",
+      "frameRate": "30",
+      "duration": "10",
+      "hasVideo": true,
+      "hasAudio": false,
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "sequences": [
+    {
+      "id": "seq-1",
+      "name": "M6 export sample",
+      "width": 640,
+      "height": 360,
+      "frameRate": "30",
+      "sampleRate": 48000,
+      "tracks": [
+        {
+          "id": "v1",
+          "kind": "video",
+          "name": "Video 1",
+          "clips": [
+            {
+              "id": "vc",
+              "source": "C",
+              "start": "0",
+              "in": "2",
+              "duration": "2"
+            },
+            {
+              "id": "va",
+              "source": "A",
+              "start": "2",
+              "in": "2",
+              "duration": "2",
+              "link": "la"
+            }
+          ]
+        },
+        {
+          "id": "v2",
+          "kind": "video",
+          "name": "Titles",
+          "clips": [
+            {
+              "id": "t1",
+              "start": "0",
+              "in": "0",
+              "duration": "4",
+              "title": {
+                "text": "MeerCut M6 export",
+                "style": {
+                  "size": 22,
+                  "weight": 600,
+                  "background": true,
+                  "backgroundColor": "#14161C",
+                  "backgroundOpacity": 0.82,
+                  "backgroundPadding": 10,
+                  "backgroundRadius": 4
+                }
+              },
+              "transform": {
+                "positionY": 0.38
+              }
+            }
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "audio",
+          "name": "Audio 1",
+          "clips": [
+            {
+              "id": "aa",
+              "source": "A",
+              "start": "2",
+              "in": "2",
+              "duration": "2",
+              "link": "la",
+              "audio": {
+                "fadeOut": "1/2"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

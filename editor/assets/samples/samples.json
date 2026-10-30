@@ -1,0 +1,81 @@
+{
+ "format": "meercut-sample-videos",
+ "version": 1,
+ "items": [
+  {
+   "id": "sample.bridge_conversation",
+   "title": "Bridge Conversation",
+   "file": "bridge_conversation.mp4",
+   "description": "A futuristic skyline, then two people arguing on a canal bridge. Practise trimming, splitting and captions.",
+   "poster": 9.0,
+   "seconds": 20.25,
+   "width": 1280,
+   "height": 720,
+   "fps": 24.0,
+   "credit": "Tears of Steel (c) Blender Foundation | mango.blender.org",
+   "licence": "CC BY 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
+   "changes": "frames 0-485 of tears_of_steel_60s.mov (https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov from 00:00:20, 60 s, stream copy), letterboxed to 1280x720, re-encoded with 30 ms sound fades at the cuts"
+  },
+  {
+   "id": "sample.scifi_lab_montage",
+   "title": "Sci-Fi Lab Montage",
+   "file": "scifi_lab_montage.mp4",
+   "description": "Holograms, a '40 years later' title, a lab and a brain under a robot eye. Practise transitions and effects.",
+   "poster": 12.0,
+   "seconds": 24.208,
+   "width": 1280,
+   "height": 720,
+   "fps": 24.0,
+   "credit": "Tears of Steel (c) Blender Foundation | mango.blender.org",
+   "licence": "CC BY 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
+   "changes": "frames 486-1066 of tears_of_steel_60s.mov (https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov from 00:00:20, 60 s, stream copy), letterboxed to 1280x720, re-encoded with 30 ms sound fades at the cuts"
+  },
+  {
+   "id": "sample.snowy_adventure",
+   "title": "Snowy Adventure",
+   "file": "snowy_adventure.mp4",
+   "description": "Snowy mountains, a climber, an old man's story and a run through dark streets. Practise colour and speed.",
+   "poster": 6.0,
+   "seconds": 23.792,
+   "width": 1280,
+   "height": 720,
+   "fps": 24.0,
+   "credit": "Sintel (c) Blender Foundation | durian.blender.org",
+   "licence": "CC BY 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
+   "changes": "frames 0-570 of sintel_trailer_720p.mp4 (durian.blender.org), re-encoded with 30 ms sound fades at the cuts"
+  },
+  {
+   "id": "sample.dragon_and_desert",
+   "title": "Dragon and Desert",
+   "file": "dragon_and_desert.mp4",
+   "description": "Dragons over a ruined city, a fight in the sky and the desert, ending on the title. Practise music and fades.",
+   "poster": 8.5,
+   "seconds": 23.458,
+   "width": 1280,
+   "height": 720,
+   "fps": 24.0,
+   "credit": "Sintel (c) Blender Foundation | durian.blender.org",
+   "licence": "CC BY 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
+   "changes": "frames 571-1133 of sintel_trailer_720p.mp4 (durian.blender.org), re-encoded with 30 ms sound fades at the cuts"
+  },
+  {
+   "id": "sample.green_screen_practice",
+   "title": "Green Screen Practice",
+   "file": "green_screen_practice.mp4",
+   "description": "An animated badge on a green screen. Put it on a track above another clip and remove the green with Chroma Key.",
+   "poster": 5.0,
+   "seconds": 20.0,
+   "width": 1280,
+   "height": 720,
+   "fps": 24.0,
+   "credit": "",
+   "licence": "",
+   "licenceUrl": "",
+   "changes": ""
+  }
+ ]
+}

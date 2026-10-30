@@ -1,0 +1,165 @@
+{
+  "format": "fa-project",
+  "name": "",
+  "nextId": 6,
+  "sequences": [
+    {
+      "frameRate": "24",
+      "height": 720,
+      "id": "seq1",
+      "name": "Sequence 1",
+      "sampleRate": 48000,
+      "tracks": [
+        {
+          "clips": [
+            {
+              "duration": "16",
+              "id": "c1",
+              "in": "0",
+              "source": "m1",
+              "start": "0"
+            }
+          ],
+          "id": "v1",
+          "kind": "video",
+          "name": "Video 1"
+        },
+        {
+          "clips": [
+            {
+              "duration": "16",
+              "id": "c1a",
+              "in": "0",
+              "source": "m1",
+              "start": "0"
+            }
+          ],
+          "id": "a1",
+          "kind": "audio",
+          "name": "Audio 1"
+        },
+        {
+          "clips": [
+            {
+              "duration": "13/4",
+              "id": "clip-2",
+              "in": "0",
+              "name": "Look, Celia, we have to follow our passi...",
+              "start": "33/8",
+              "title": {
+                "followTrackStyle": true,
+                "style": {
+                  "anchor": "bottom",
+                  "outline": true,
+                  "outlineWidth": 3.0,
+                  "size": 20.0,
+                  "weight": 600,
+                  "wrapWidth": 0.85
+                },
+                "text": "Look, Celia, we have to follow our passions."
+              }
+            },
+            {
+              "duration": "8/3",
+              "id": "clip-3",
+              "in": "0",
+              "name": "You have your robotics, and I just want ...",
+              "start": "59/8",
+              "title": {
+                "followTrackStyle": true,
+                "style": {
+                  "anchor": "bottom",
+                  "outline": true,
+                  "outlineWidth": 3.0,
+                  "size": 20.0,
+                  "weight": 600,
+                  "wrapWidth": 0.85
+                },
+                "text": "You have your robotics, and I just want to be awesome in space."
+              }
+            },
+            {
+              "duration": "47/12",
+              "id": "clip-4",
+              "in": "0",
+              "name": "Why don't you just admit that you're fre...",
+              "start": "127/12",
+              "title": {
+                "followTrackStyle": true,
+                "style": {
+                  "anchor": "bottom",
+                  "outline": true,
+                  "outlineWidth": 3.0,
+                  "size": 20.0,
+                  "weight": 600,
+                  "wrapWidth": 0.85
+                },
+                "text": "Why don't you just admit that you're freaked out by my robot hand?"
+              }
+            },
+            {
+              "duration": "11/8",
+              "id": "clip-5",
+              "in": "0",
+              "name": "I'm not freaked out, but it's...",
+              "start": "175/12",
+              "title": {
+                "followTrackStyle": true,
+                "style": {
+                  "anchor": "bottom",
+                  "outline": true,
+                  "outlineWidth": 3.0,
+                  "size": 20.0,
+                  "weight": 600,
+                  "wrapWidth": 0.85
+                },
+                "text": "I'm not freaked out, but it's..."
+              }
+            }
+          ],
+          "id": "s-1",
+          "kind": "subtitle",
+          "name": "Subtitles 1"
+        },
+        {
+          "clips": [
+            {
+              "duration": "16",
+              "id": "label3",
+              "in": "0",
+              "start": "0",
+              "title": {
+                "style": {
+                  "size": 26.0,
+                  "weight": 700,
+                  "wrapWidth": 0.9
+                },
+                "text": "Speech to Text (AI: whisper base) - captions uncorrected"
+              },
+              "transform": {
+                "positionY": -0.43
+              }
+            }
+          ],
+          "id": "lbl3",
+          "kind": "video",
+          "name": "Labels"
+        }
+      ],
+      "width": 1280
+    }
+  ],
+  "sources": [
+    {
+      "duration": "60083333/1000000",
+      "frameRate": "24",
+      "hasAudio": true,
+      "hasVideo": true,
+      "height": 534,
+      "id": "m1",
+      "path": "../../testmedia/ai/tears_of_steel_60s.mov",
+      "width": 1280
+    }
+  ],
+  "version": 9
+}

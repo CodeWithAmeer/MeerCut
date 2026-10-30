@@ -1,0 +1,187 @@
+{
+  "format": "fa-project",
+  "name": "",
+  "nextId": 1,
+  "sequences": [
+    {
+      "frameRate": "24",
+      "height": 1280,
+      "id": "seq1",
+      "name": "Sequence 1",
+      "sampleRate": 48000,
+      "tracks": [
+        {
+          "clips": [
+            {
+              "duration": "8",
+              "id": "c1",
+              "in": "28",
+              "source": "m1",
+              "start": "0",
+              "transform": {
+                "positionX": {
+                  "keys": [
+                    {
+                      "interp": "linear",
+                      "t": "28",
+                      "tangent": "linear",
+                      "v": -0.0
+                    },
+                    {
+                      "interp": "hold",
+                      "t": "89/3",
+                      "tangent": "linear",
+                      "v": -0.0
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "953/32",
+                      "tangent": "linear",
+                      "v": -0.07586595429091932
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "361/12",
+                      "tangent": "linear",
+                      "v": -0.10197297107571479
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "61/2",
+                      "tangent": "linear",
+                      "v": -0.16740821480049795
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "737/24",
+                      "tangent": "linear",
+                      "v": -0.21484139292030813
+                    },
+                    {
+                      "interp": "hold",
+                      "t": "371/12",
+                      "tangent": "linear",
+                      "v": -0.2371216468760318
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "2987/96",
+                      "tangent": "linear",
+                      "v": -0.6927077796241395
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "757/24",
+                      "tangent": "linear",
+                      "v": -0.6790253810818476
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "127/4",
+                      "tangent": "linear",
+                      "v": -0.6671749274795727
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "767/24",
+                      "tangent": "linear",
+                      "v": -0.6512292445745668
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "259/8",
+                      "tangent": "linear",
+                      "v": -0.6070459206988655
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "797/24",
+                      "tangent": "linear",
+                      "v": -0.4962855943370338
+                    },
+                    {
+                      "interp": "hold",
+                      "t": "269/8",
+                      "tangent": "linear",
+                      "v": -0.45215459781819606
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "1077/32",
+                      "tangent": "linear",
+                      "v": 0.8073028091996773
+                    },
+                    {
+                      "interp": "linear",
+                      "t": "863/24",
+                      "tangent": "linear",
+                      "v": 0.8066136408288173
+                    }
+                  ],
+                  "value": -0.0
+                },
+                "scaleX": 4.261339991677071,
+                "scaleY": 4.261339991677071
+              }
+            }
+          ],
+          "id": "v1",
+          "kind": "video",
+          "name": "Video 1"
+        },
+        {
+          "clips": [
+            {
+              "duration": "8",
+              "id": "c1a",
+              "in": "28",
+              "source": "m1",
+              "start": "0"
+            }
+          ],
+          "id": "a1",
+          "kind": "audio",
+          "name": "Audio 1"
+        },
+        {
+          "clips": [
+            {
+              "duration": "8",
+              "id": "label2",
+              "in": "0",
+              "start": "0",
+              "title": {
+                "style": {
+                  "size": 18.0,
+                  "weight": 700,
+                  "wrapWidth": 0.9
+                },
+                "text": "Auto Reframe 9:16 (AI: YuNet faces)"
+              },
+              "transform": {
+                "positionY": -0.44
+              }
+            }
+          ],
+          "id": "lbl2",
+          "kind": "video",
+          "name": "Labels"
+        }
+      ],
+      "width": 720
+    }
+  ],
+  "sources": [
+    {
+      "duration": "60083333/1000000",
+      "frameRate": "24",
+      "hasAudio": true,
+      "hasVideo": true,
+      "height": 534,
+      "id": "m1",
+      "path": "../../testmedia/ai/tears_of_steel_60s.mov",
+      "width": 1280
+    }
+  ],
+  "version": 9
+}

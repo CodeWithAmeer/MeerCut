@@ -1,0 +1,642 @@
+{
+ "files": [
+  {
+   "file": "jfk.wav",
+   "sha256": "59dfb9a4acb36fe2a2affc14bacbee2920ff435cb13cc314a08c13f66ba7860e",
+   "licence": "public domain",
+   "source": "whisper.cpp v1.8.6 samples/jfk.wav",
+   "url": "https://raw.githubusercontent.com/ggml-org/whisper.cpp/v1.8.6/samples/jfk.wav"
+  },
+  {
+   "file": "sintel_trailer_720p.mp4",
+   "sha256": "cb0fe73fc0a7d543459996c0cdab730997e6eac1013d3ede18796f777cb7f273",
+   "licence": "CC BY 3.0 (c) Blender Foundation",
+   "source": "durian.blender.org",
+   "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
+  },
+  {
+   "file": "tears_of_steel_60s.mov",
+   "sha256": "83ca036e90c14f900f7afe80bdfdf2334d15a15b4606375a25f810a8cfce4ee2",
+   "licence": "CC BY 3.0 (c) Blender Foundation",
+   "source": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov from 00:00:20, 60 s, stream copy"
+  },
+  {
+   "file": "librispeech/1272-128104-0000.flac",
+   "sha256": "4e25e22555cd16e90edb0a3b49fdcf1fe652b2a1250ab643634db33895c75b41",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0001.flac",
+   "sha256": "46a9d58622b4675b29564da2d9ba73e702241c5fa969f12c387cad4aa984276a",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0002.flac",
+   "sha256": "59bf7bb1129c11734a8dd362ad52b4e10ae31c03f0879fc92f7107ecd513513f",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0003.flac",
+   "sha256": "60d72657439cd3092fc2313efe0fabd31f0cd2f28f8ca46a21380c290b2e031d",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0004.flac",
+   "sha256": "07244790e9a8300bfcbf12c28ac5230792e75238d03b2ac167a72bf3943c5404",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0005.flac",
+   "sha256": "870faa0669d19ca8416b9923cdf722ba9fd6ccce766a50583fa9c0f808b39eba",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0006.flac",
+   "sha256": "12475ade3c01c9f750bfc95e1c5a5dd05afcfe30141a0f5464da59f0c01d26e4",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0007.flac",
+   "sha256": "84998a43cb534e09801f5522b9ed0aa58e88035c9727bc8e4d362a7bc158d0b6",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0008.flac",
+   "sha256": "08a3f099d544fac5df1b6105bfd4952d911995f271b494c9a689c083c39ab855",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0009.flac",
+   "sha256": "2bfbcdfab6024ccd3bfeb4e883cc7f9cc613235e504bfc068fd34069056513b7",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0010.flac",
+   "sha256": "2ebbcaa44f14c15fd8afd0e4a71cae494377d30812a0ba05d6be07c55d00bbea",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0011.flac",
+   "sha256": "d481b97c34ef7c5087dcd53f93d311e050834ba5e4b0f9165f6a8e9e8c7fb245",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0012.flac",
+   "sha256": "222cd90cd9edf086096fb0abba901b772f8ca4e763d5becb803b0a7f9b16ace9",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0013.flac",
+   "sha256": "4e090445122aee10fe3045cf79fb234f5059e6b911c0ffcbedb91e04c20473ae",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-128104-0014.flac",
+   "sha256": "5e7e3b96d975c74c952209a4d3a0731ec57019689685e1cf5f3c73a76f6f8a36",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0000.flac",
+   "sha256": "26cbebbdd8954104c936dc38fbb8a80958f2169ada0fa6fe46a89cfa9e3d824c",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0001.flac",
+   "sha256": "7565c448f1e4cab4eebce19116ad20b22b24a5c38a82a2f98ae19bb068a3aecb",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0002.flac",
+   "sha256": "6fbbe1b5e143f2ac7baa9c62bbf3575d34ab79a79f9fcbaa0cac60c2e08e1703",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0003.flac",
+   "sha256": "80f47603018506ec4a646b68d9f7716b132d8d5ee740dc503ed4f9122cd76243",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0004.flac",
+   "sha256": "919d80690bed932be273b0e6e3512b18a6166ed974400ca7e03903760ef24420",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0005.flac",
+   "sha256": "d3da297f1f6a0f933ce6d778b8dc8fecff4cc7c21616dbd536146e76ebb98fbe",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0006.flac",
+   "sha256": "65ae3678b861333fb9ba2e5d7db9a0f77fe58ad89d4480872eeb62d22e894dd3",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0007.flac",
+   "sha256": "1d1b4106711196bcf15091b2df60096dfa234132df32f5d7a57ef4931dfc5d83",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0008.flac",
+   "sha256": "bc3c6a74fccbe7a7c86f9f59ed4589d8be65dc84d00a3d413b58d4722a341570",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0009.flac",
+   "sha256": "d23fc0e9c9ccb35f6ec9223954c921e1c9daa0cc9d8e8ad10b3b9cb4b14b6617",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0010.flac",
+   "sha256": "cec411cc16334eae88f793cf4cc0c2c6f83087c06b4e11a451c329a33b26b884",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0011.flac",
+   "sha256": "765c97d18eb1aa76ab4223359dd403ab8e606d9dc195c0b82f4b6b40b5b91a14",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0012.flac",
+   "sha256": "2da8a3d5a915be58a29cae9520c94e96395619f1dd3a0968486c9d5154b77b12",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0013.flac",
+   "sha256": "52e72bda6f458ffea420adc0044fd93392d16d3f0393f03c71888b773e9ad02c",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0014.flac",
+   "sha256": "659d4e11b195fa5e15dcb1fa860d703cbb9e1a57fa307d4ac6a6093435cf49cb",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0015.flac",
+   "sha256": "95eb0d408f2f4275bd44995e2202b1b1377ac00538662d5cae509de32e9d353f",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0016.flac",
+   "sha256": "e4ef839a12f5e01279f449fbec8decd9917a2a01516a8a67635c4cde526caee5",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0017.flac",
+   "sha256": "18bf640efb70a8735f674c4289ab2cc9ee42a529e097dca376d0f69a3907e56f",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0018.flac",
+   "sha256": "db055fdf17b99b4e68f2e2bdbd01a5a8388321df44e0fcb1600e6b4387466fc3",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0019.flac",
+   "sha256": "c19e0c3de6100627ffbca103dc5d8502dc6d74a3e1f06e00d5e6dc6ffbb25d94",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0020.flac",
+   "sha256": "293af6add35a8f87e03f4ec59ef6e23538293c6fc8be45346dd17f6a69cc7f1f",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0021.flac",
+   "sha256": "cce5a7959d35cd34310e6868853d7d755b5aa13caa9579ddbaf0e5b28ffd29fd",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0022.flac",
+   "sha256": "0d3573eac7e74ab8c05a5743b050bd6bda2e6f73629bc7ec338394206a29e7f2",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0023.flac",
+   "sha256": "9d37ebdf780a28eaeebaada1f12bc2b2a2fca2278c09a2652f5e5b7e9420aa04",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-135031-0024.flac",
+   "sha256": "f1359484fb8e3647248cc1f6fd978d331f83fbfe20e173e287110c087c45d967",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0000.flac",
+   "sha256": "adb240047a1e0732c96b029b7dbd7c81a17c853cbd30aec0ee0d9c4e59fe720a",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0001.flac",
+   "sha256": "5ec33d1ae2a06430ddd4faa6090673f7dbb09f71405ce401a08301eedb313275",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0002.flac",
+   "sha256": "9a490059a63cd2f92fbc8c447135ed87f97ed36ee53714987b01c8ac7c33dec4",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0003.flac",
+   "sha256": "da658227a61fdfefa7a54ad9bb4614a7da33e335358e5b3620ddcf7c93c3e77f",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0004.flac",
+   "sha256": "34c4339d921ca363faa292996ea12864c9bbdb5a69fa40178e41629f069a36e0",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0005.flac",
+   "sha256": "65265556f1956c0f20f5234b6aa2166dfdcde396ffc3cd1287d9e9e64489afbb",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0006.flac",
+   "sha256": "c3e32102b9faeb6dc3ec5203440d4e2a365cc0ea44fa6aeaefe5e3668a9a8585",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0007.flac",
+   "sha256": "1cc95ce7c6be4352b94c10d77a4b0475ccc5ad543b0d3a5f791459963ce4efb1",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0008.flac",
+   "sha256": "1d5eb4bf16f57e21ac034f012f37c9b97a61f8e2552a441352b9d0eab58c48e7",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0009.flac",
+   "sha256": "42cf54411f05e2cd4397d9e7cbfb566c204954e1d6dc3f892b57499433c8e7fd",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0010.flac",
+   "sha256": "b0316adbccaff2af04f6d397c03905f157a6b2418a9b54e88a16d5859b000211",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0011.flac",
+   "sha256": "49975adce742d343d7755ad7e52f75f93bf28ee6f9f038b4dab9a217336b78f7",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0012.flac",
+   "sha256": "3559a8ddb75104a20769c00b17226fb86de0e4329bfca313833eb83c0561efef",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0013.flac",
+   "sha256": "ff87e7b407cf5355d492e618dbc87e9800a688ccb950ab1ac693d64a1bcfb80f",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0014.flac",
+   "sha256": "9a2410edf224fc38005243625b49e18fba5b297867171177906f9ed1f808b714",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0015.flac",
+   "sha256": "24727264f148b3bbe587338e1456281298e6cbd7a29eff07ab06ea096cbdd174",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0016.flac",
+   "sha256": "2de6e800e9a973de275a2c57ef2a8ccf0e25655f0158a0a551bdc0e944607ebc",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0017.flac",
+   "sha256": "54aac47c491c01ca59b3be862b9f53cf4fd93862e1363b02471d910f76e3b4ac",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0018.flac",
+   "sha256": "dcc9cc41630ec440e639cf8349899f6e76000d728659ca42ef7ac0ef003ca201",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0019.flac",
+   "sha256": "42735cf9485cd4c93d766d01cddebabed5a21f49e26a9c6dd15f8e5db2f6b5a6",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0020.flac",
+   "sha256": "3998b463548c90f6686faf96432cc237c96f0bd784d8124a1a3c851fd4451acf",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0021.flac",
+   "sha256": "f40d906923ec180a258635ec7bf5bfdaeac2c1ee3bef24c32ef6361b420d6ea8",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0022.flac",
+   "sha256": "6fca2f211411ffd83f84ccfe38ac1434a83ba02497c68cd1819cb63da57fb3a4",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0023.flac",
+   "sha256": "e4eee59ba1119187a240da9e67bc4f60af77b023b2aac7b33ffe2a6258e8a7f8",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0024.flac",
+   "sha256": "84bd6220942701e8973dc0e8a2c8a7ac5f794a15d1a884994e95c5e3b8efa96e",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0025.flac",
+   "sha256": "b3819f4ebe697500f8fdb302dcf832e73e08c8d8e3abc69e04328f1cdce5dceb",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0026.flac",
+   "sha256": "78bbbfada3676e97548fe946e252cfffc5fba916542d2c6e39d5ecbb8be76710",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0027.flac",
+   "sha256": "b676f024fec3c98d3e7783e5bf3846739b47807aa30c1ed0c9066e3988b2dfeb",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0028.flac",
+   "sha256": "a6833433f5c62c5ffae8a368811c507dde2401d3ff7e9669a492c150f6afe8d4",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0029.flac",
+   "sha256": "8b76b5e12d811444604a97633f4cfeb6e4228273f734d3c14ee0f8aa9c8df860",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0030.flac",
+   "sha256": "f65aeae1485f33072d636c36ad06ae205627f59619b2113a0c91d91126afed3e",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0031.flac",
+   "sha256": "8b2218bd45e5df4d097c0f6a7ca9ac44e3b3f5add0a4d035d3da2f4e3f1e31c6",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "librispeech/1272-141231-0032.flac",
+   "sha256": "57a830871a87def230b541a41898aca9ef444b2ae420cdc776a4e6debf74d50c",
+   "licence": "CC BY 4.0",
+   "source": "LibriSpeech dev-clean via hf-internal-testing/librispeech_asr_dummy"
+  },
+  {
+   "file": "fleurs/es_419/1001146817223348054.wav",
+   "sha256": "861ceedc4d50fbe52fc89b6d0c0fa740b9cd6fa668388e754064847386af0faf",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs es_419 test"
+  },
+  {
+   "file": "fleurs/es_419/10050510856477907332.wav",
+   "sha256": "5b0fcf5b42064d33a36d26dab527cb230b4751587b4066ef11157ea603586d8d",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs es_419 test"
+  },
+  {
+   "file": "fleurs/es_419/1008205615316519958.wav",
+   "sha256": "0576e73da35ef17b6ce6396d31b32830b7ab19cea98f9f5db68de3756dc3d4fc",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs es_419 test"
+  },
+  {
+   "file": "fleurs/es_419/10084850086754329587.wav",
+   "sha256": "275d5d9dcbfb7099b9aac08ea81fc7383b94e085a683d127ce4d8ff742cb3961",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs es_419 test"
+  },
+  {
+   "file": "fleurs/es_419/10107325335956726764.wav",
+   "sha256": "675d977de02f4ae1314252277c44375f9969732cb80db56e024b853fbbb939f7",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs es_419 test"
+  },
+  {
+   "file": "fleurs/es_419/1013662909103347734.wav",
+   "sha256": "27c060cfd8abfffe6f31dc41b3e1fb8ab0adef25ac8347a038c6ef1e536077f8",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs es_419 test"
+  },
+  {
+   "file": "fleurs/es_419/10149016836336603986.wav",
+   "sha256": "13b06188bd62a1a63ed350e6fe1a1ee8518db1ea7bc8f75d72849ca023de7c32",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs es_419 test"
+  },
+  {
+   "file": "fleurs/es_419/10150624747569080019.wav",
+   "sha256": "41b0e8fe385400d1d4653717d017c4b6f6666b63a21e5b13eb7e3d4d6149c3d4",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs es_419 test"
+  },
+  {
+   "file": "fleurs/es_419/10155332265364188477.wav",
+   "sha256": "7459d655bf0ff1c24e46df4d94a0fbf02ebcd2b86eaa9c38f54f8e8ee7ac6273",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs es_419 test"
+  },
+  {
+   "file": "fleurs/es_419/10192388533260519980.wav",
+   "sha256": "14f6bbd87ddcf98ade6364dc21f7dff9d5d826429c1e1bd17ef12d2bebad0b8d",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs es_419 test"
+  },
+  {
+   "file": "fleurs/fr_fr/10043298898524273336.wav",
+   "sha256": "c834367fd212902124bdd0e0f6c1f16b5561af6386600f145e5aec50008b298d",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs fr_fr test"
+  },
+  {
+   "file": "fleurs/fr_fr/10097171356371990207.wav",
+   "sha256": "9b9450e1cb9ea3badb2223f726adabb754cd6ff2278b9fc4dc2ad86c73791db7",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs fr_fr test"
+  },
+  {
+   "file": "fleurs/fr_fr/10138021779681596478.wav",
+   "sha256": "05ccf3ccc2ab4b72d056c3f02e3ffcf6ea0f37b1c42bea5c35789c85291fbdc5",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs fr_fr test"
+  },
+  {
+   "file": "fleurs/fr_fr/10143749263702132703.wav",
+   "sha256": "fc42db1a8eb9339fa89be21f013b2e2ea231b3eb9b4af3bf82c7a3a1aae78b3b",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs fr_fr test"
+  },
+  {
+   "file": "fleurs/fr_fr/10166091086920486572.wav",
+   "sha256": "315a3fc3328acea267098f2cbc0cfa5dccee6e125c6861c229335f9b476cb4b9",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs fr_fr test"
+  },
+  {
+   "file": "fleurs/fr_fr/10174413140250646001.wav",
+   "sha256": "bbd0709fac97a44791bceecac6d7e9ebf799625bbe62f13658d5634c7a8ddc2e",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs fr_fr test"
+  },
+  {
+   "file": "fleurs/fr_fr/10221277978969763776.wav",
+   "sha256": "f149d230427496afa3223808edee58e64316f2bd3d879ad9c962b12d2f0bf9a3",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs fr_fr test"
+  },
+  {
+   "file": "fleurs/fr_fr/10334413597118469552.wav",
+   "sha256": "7ec432adcd9dc8b56c41238f16fd11ec3acd93a9fd8c4b5d14a567e59aa9e7c3",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs fr_fr test"
+  },
+  {
+   "file": "fleurs/fr_fr/10385751433252343757.wav",
+   "sha256": "b9de46d46d5204457de15fb7a7dec50bb2e6d1f6353a871e238efcbcb0da57e6",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs fr_fr test"
+  },
+  {
+   "file": "fleurs/fr_fr/10399459061919571703.wav",
+   "sha256": "6e9abd557045f80d61c388412c99e5bfb2989f3d77504db10ed2fcf430c65cda",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs fr_fr test"
+  },
+  {
+   "file": "fleurs/ar_eg/10019390257075855641.wav",
+   "sha256": "40d979a6239fc08951f387c671fb5fc46fffdc5df823ed1dbdb809bc75e26620",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs ar_eg test"
+  },
+  {
+   "file": "fleurs/ar_eg/10035416633083120372.wav",
+   "sha256": "318e95704f15e5050d5f3703172415c5e9d7f83495c3589590e8c4ca8b2628f6",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs ar_eg test"
+  },
+  {
+   "file": "fleurs/ar_eg/10080665469720750912.wav",
+   "sha256": "cca59df14be2fc8fd0f064dd7ad524878db5e976b03634db7833f0268e18a058",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs ar_eg test"
+  },
+  {
+   "file": "fleurs/ar_eg/1021284281927612037.wav",
+   "sha256": "4290bcfb2743b45c4979244cb2c960b3c64c90ce6c1a443d76ca41d24de9a77b",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs ar_eg test"
+  },
+  {
+   "file": "fleurs/ar_eg/10219273669592698682.wav",
+   "sha256": "efe924f7d50f237bf376a7d4a37113dfd993443c652ac81f8fb8af676365f121",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs ar_eg test"
+  },
+  {
+   "file": "fleurs/ar_eg/10223562251993082117.wav",
+   "sha256": "d39101a09481c7f037891768dc0892d7f433b9860de52ddd678fc1d6a02296e7",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs ar_eg test"
+  },
+  {
+   "file": "fleurs/ar_eg/10340788584398631536.wav",
+   "sha256": "48eadc24269c1acbeb2385f125b74e9c6f59f5e19c3aed6e224faf3e647ed06a",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs ar_eg test"
+  },
+  {
+   "file": "fleurs/ar_eg/1035166469684084794.wav",
+   "sha256": "206aaf4a941b7748ecb480cb56bb98e5c907c88818ae1c9ca212fc10b21e6b90",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs ar_eg test"
+  },
+  {
+   "file": "fleurs/ar_eg/10361044285640817256.wav",
+   "sha256": "0f610a5cfa0049daaaaae69ed7e9d218badbe83a85013d491313255acca890a9",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs ar_eg test"
+  },
+  {
+   "file": "fleurs/ar_eg/10366294495925707527.wav",
+   "sha256": "1f0d1b39b89082a05f88f704710bdb8bfd72d3623920287457b411e2003d41cb",
+   "licence": "CC BY 4.0",
+   "source": "google/fleurs ar_eg test"
+  }
+ ]
+}

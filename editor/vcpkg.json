@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "meercut",
+  "version-string": "1.0.0",
+  "description": "Open-source video editor (MeerCut): engine, desktop editor and tools.",
+  "license": "GPL-3.0-or-later",
+  "builtin-baseline": "c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea",
+  "dependencies": [
+    {
+      "name": "ffmpeg",
+      "default-features": false,
+      "features": [ "avcodec", "avformat", "swscale", "swresample", "gpl", "x264", "x265", "vpx", "svt-av1", "opus",
+                    "dav1d", "nvcodec", "qsv" ]
+    },
+    "nlohmann-json",
+    "gtest",
+    {
+      "name": "qtbase",
+      "default-features": false,
+      "features": [ "gui", "widgets", "png", "thread", "testlib", "windeployqt", "harfbuzz" ]
+    },
+    "miniaudio",
+    {
+      "name": "opencv4",
+      "default-features": false,
+      "features": [ "calib3d", "intrinsics", "thread" ]
+    },
+    "zlib",
+    {
+      "name": "ncnn",
+      "features": [ "vulkan" ]
+    },
+    {
+      "name": "whisper-cpp",
+      "features": [ "vulkan" ]
+    }
+  ]
+}

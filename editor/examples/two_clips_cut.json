@@ -1,0 +1,31 @@
+{
+  "format": "fa-project",
+  "version": 1,
+  "name": "Two clips with a cut (example)",
+  "nextId": 10,
+  "sources": [
+    { "id": "src-a", "path": "../../testmedia/A_red_1080p30_10s.mp4", "hasVideo": true, "hasAudio": true },
+    { "id": "src-b", "path": "../../testmedia/B_blue_1080p30_10s.mp4", "hasVideo": true, "hasAudio": true }
+  ],
+  "sequences": [
+    {
+      "id": "seq-1",
+      "name": "Main",
+      "width": 1920,
+      "height": 1080,
+      "frameRate": "30",
+      "sampleRate": 48000,
+      "tracks": [
+        {
+          "id": "v1",
+          "kind": "video",
+          "clips": [
+            { "id": "clip-1", "source": "src-a", "start": "0", "in": "2", "duration": "2" },
+            { "id": "clip-2", "source": "src-b", "start": "2", "in": "5", "duration": "2",
+              "opacity": { "value": 1, "keys": [ { "t": "5", "v": 0, "interp": "linear" }, { "t": "6", "v": 1 } ] } }
+          ]
+        }
+      ]
+    }
+  ]
+}

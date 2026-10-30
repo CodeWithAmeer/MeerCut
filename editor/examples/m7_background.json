@@ -1,0 +1,116 @@
+{
+  "format": "fa-project",
+  "name": "",
+  "nextId": 1,
+  "sequences": [
+    {
+      "frameRate": "24",
+      "height": 720,
+      "id": "seq1",
+      "name": "Sequence 1",
+      "sampleRate": 48000,
+      "tracks": [
+        {
+          "clips": [
+            {
+              "duration": "4",
+              "id": "bg",
+              "in": "75/2",
+              "source": "m2",
+              "start": "0"
+            }
+          ],
+          "id": "v0",
+          "kind": "video",
+          "name": "Background"
+        },
+        {
+          "clips": [
+            {
+              "aiCutout": {
+                "edge": 0.0,
+                "enabled": true,
+                "feather": 0.0,
+                "model": "rvm-mobilenetv3",
+                "quality": 1,
+                "smoothing": 0.5,
+                "spill": 0.5,
+                "threshold": 0.0
+              },
+              "duration": "4",
+              "id": "c1",
+              "in": "10",
+              "source": "m1",
+              "start": "0"
+            }
+          ],
+          "id": "v1",
+          "kind": "video",
+          "name": "Video 1"
+        },
+        {
+          "clips": [
+            {
+              "duration": "4",
+              "id": "c1a",
+              "in": "10",
+              "source": "m1",
+              "start": "0"
+            }
+          ],
+          "id": "a1",
+          "kind": "audio",
+          "name": "Audio 1"
+        },
+        {
+          "clips": [
+            {
+              "duration": "4",
+              "id": "label3",
+              "in": "0",
+              "start": "0",
+              "title": {
+                "style": {
+                  "size": 30.0,
+                  "weight": 700,
+                  "wrapWidth": 0.9
+                },
+                "text": "Background Removal (AI: Robust Video Matting)"
+              },
+              "transform": {
+                "positionY": -0.43
+              }
+            }
+          ],
+          "id": "lbl3",
+          "kind": "video",
+          "name": "Labels"
+        }
+      ],
+      "width": 1280
+    }
+  ],
+  "sources": [
+    {
+      "duration": "60083333/1000000",
+      "frameRate": "24",
+      "hasAudio": true,
+      "hasVideo": true,
+      "height": 534,
+      "id": "m1",
+      "path": "../../testmedia/ai/tears_of_steel_60s.mov",
+      "width": 1280
+    },
+    {
+      "duration": "52208333/1000000",
+      "frameRate": "24",
+      "hasAudio": true,
+      "hasVideo": true,
+      "height": 720,
+      "id": "m2",
+      "path": "../../testmedia/ai/sintel_trailer_720p.mp4",
+      "width": 1280
+    }
+  ],
+  "version": 9
+}
